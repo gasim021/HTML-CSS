@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300&display=swap');
+
+.logo {
+    color: #1E0E62;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    /* Buttons / Small */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    column-gap: 30px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.login {
+    color: var(--action-primary, #25DAC5);
+    border: none;
+    background-color: white;
+    /* Buttons / Small */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    margin-right: 32px;
+}
+
+.sign_up {
+    border: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    padding: 7px 18px;
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--action-primary, #25DAC5);
+}
+
+/*main part */
+
+h1  {
+    color: var(--colors-heading, #1E0E62);
+    text-align: center;
+    /* Heading / H2 Header */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; /* 120.69% */
+    letter-spacing: -1px;
+    padding: 0 100px;
+}
+
+.paragraph {
+    text-align: center;
+    padding: 0 200px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    /* Heading / H5 Lead */
+    font-family: DM Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 145.455% */
+}
+
+.account {
+    color: var(--colors-white, #FFF);
+    border-radius: 100px;
+    background: var(--action-third, #E93A7D);
+    text-align: center;
+    border: none;
+    padding: 17px 45px;
+
+    width: 268px;
+    height: 60px;
+    flex-shrink: 0;
+
+    /* Buttons / Big */
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Footer part */
+
+.container {
+    display: flex;
+    margin-top: 111px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 300px;
+}
+.container  img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 170px;
+    height:110px;
+    background-size: cover;
+}
+
+.num2 {
+     font-family: 'DM Sans', sans-serif;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    text-align: center;
+
+    /* Text / Article */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    gap: 30px;
+    row-gap: 30px;
+    break-inside: avoid;
+}
+
+.grid-container img{
+    margin-bottom: 30px;
+}
+

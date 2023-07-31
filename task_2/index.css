@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@200&display=swap');
+
+main  {
+    padding: 100px 216px;
+}
+.heading {
+    color: #1E0E62;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+article {
+    font-weight: 800 !important;
+    width: 470px;
+    color: #1E0E62;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500!imp;
+    
+}
+
+p {
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+
+    /* Text / Paragraph */
+    width: 708px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+button {
+    width: 160px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--action-primary, #25DAC5);
+    border: none;
+    color: white;
+}
+.wrapper {
+    display: flex;
+    margin-top: 50px;
+}
+.img {
+    margin-right: 20px;
+    position: relative;
+}
+.third {
+    margin: 20px 0 0 0;
+    position: relative;
+}
+ 
+.icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+ 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  
+}
+
+.contentWrapper {
+    width: calc(100% - 50px);
+}
+.line {
+    width: 50px;
+    height: 400px;
+    position: relative;
+    
+}
+
+.stick {
+    width: 2px;
+    height: 525px;
+    position: absolute;
+    left: calc(50% - 2px);
+    background-color: #EBEAED;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.textIcon {
+    width: 40px;
+    height: 40px;
+    background-color: #EBEAED;
+    border-radius: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -8px;
+    left: -46px;
+}
+
+.first {
+    position: relative;
+}
+.second {
+    position: relative;
+    margin: 50px 0px;
+}
+.side p{
+    width: 200px;
+}
+
